@@ -1,0 +1,102 @@
+body {
+    background-color: #f2efe9;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    margin: 20px;
+    color: #2b2b2b;
+}
+
+#page-title,
+#form-title {
+    text-align: center;
+    color: #3a5a40;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto 40px;
+    border-collapse: collapse;
+    background-color: white;
+    border: 2px solid #588157;
+}
+
+th {
+    background-color: #3a5a40;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid #a3b18a;
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f6f0;
+}
+
+.highlight-row {
+    background-color: #dad7cd !important;
+    font-weight: bold;
+}
+
+.feedback-form {
+    width: 400px;
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    border: 2px dashed #588157;
+}
+
+.feedback-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: #3a5a40;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+    padding: 9px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    border: 1px solid #a3b18a;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+.radio-group {
+    margin-bottom: 10px;
+}
+
+.radio-group label {
+    display: inline;
+    font-weight: normal;
+    margin-right: 12px;
+    color: #2b2b2b;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid #3a5a40;
+    border-radius: 8px;
+    background-color: #588157;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #dad7cd;
+    color: #3a5a40;
+}
